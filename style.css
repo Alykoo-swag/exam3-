@@ -1,0 +1,29 @@
+.square{
+    background-color: rgb(30, 0, 253);
+    width: 150px;
+    height: 150px;
+
+}
+.circle{
+    background-color: red;
+    top: 200px;
+    width: 150px;
+    height: 150px;
+    border-radius: 999px;
+    animation: right-left 5s infinite;
+}
+.around{
+    width: 150px;
+    bottom: 150px;
+}
+@keyframes square{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}    
